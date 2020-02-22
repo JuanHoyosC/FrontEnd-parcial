@@ -10,7 +10,7 @@ body {
 
 .panel-izquierdo {
     height: 100vh;
-    background-image: url(../imagenes/login-bg.jpg);
+    background-image: url(../imagenes/fondo-login.jpg);
     background-repeat: none;
     background-size: cover;
     background-position: center;
