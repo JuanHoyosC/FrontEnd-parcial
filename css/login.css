@@ -1,0 +1,17 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 1vh;
+}
+
+
+.panel-izquierdo {
+    height: 100vh;
+    background-image: url(../imagenes/login-bg.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
