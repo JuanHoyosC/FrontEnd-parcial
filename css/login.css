@@ -1,8 +1,11 @@
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
+:root {
+    --color: rgb(22, 127, 189);
+}
 body {
     height: 1vh;
 }
@@ -14,4 +17,51 @@ body {
     background-repeat: none;
     background-size: cover;
     background-position: center;
+}
+
+
+.form{
+    padding: 70px 100px;
+}
+
+.name-page {
+    color: var(--color);
+}
+
+.form-control {
+    border:none;
+    border-radius: 0;
+    border-bottom: 1px solid var(--color);
+}
+
+.btn {
+    background-color: var(--color);
+    color: white;
+    border-radius: 10px;
+}
+
+button.btn:hover {
+    color:white;
+    background-color: rgba(22, 127, 189, 0.8);
+}
+
+.olvido {
+    color: var(--color);
+}
+
+.olvido:hover{
+    text-decoration: none;
+}
+
+.login-google{
+    height: 27%;
+    background-color: rgb(245,245,245);
+}
+
+
+.img-google{
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    cursor: pointer
 }
